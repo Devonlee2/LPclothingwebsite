@@ -2,5 +2,15 @@
 
 :root{
     --lg-font: 'Dancing Script', cursive;
---sm-font: 'Poppins', sans-serif;
+    --sm-font: 'Poppins', sans-serif;
+    --pink: #f71445ec;
 }
+body{
+    font-family: var(--sm-font);
+}
+
+/* button */
+.bg-primary{
+    background-color: var(--pink)!important ;
+}
+
